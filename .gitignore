@@ -1,0 +1,6 @@
+# Ignore all DLL files
+*.dll
+
+# Ignore appsettings files
+appsettings.json
+appsettings.*.json
