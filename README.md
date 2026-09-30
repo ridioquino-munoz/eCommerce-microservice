@@ -1,13 +1,11 @@
-<h1>E-Commerce Api</h1>
-<p>REST API build with Asp.Net Core</p>
+# E-Commerce Api
+REST API build with Asp.Net Core
 
-<h2>Feature</h2>
-<ul>
-  <li>JWT Authentication</li>
-  <li>Product Management</li>
-  <li>Order Processing</li>
-</ul>
-
+## Feature
+- JWT Authentication
+- Product Management
+- Order Processing
+ 
 <h2>Technologies</h2>
 <table>
   <tr>
@@ -16,7 +14,7 @@
     <td>Entity Framework</td>
   </tr>
   <tr>
-    <td>RabitMq</td>
+    <td>RabbitMQ</td>
     <td>Redis</td>
     <td>Docker</td>
   </tr>
