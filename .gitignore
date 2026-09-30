@@ -1,4 +1,10 @@
 # Ignore all DLL files
+
+bin/
+obj/
+.vs/
+*.user
+*.suo
 *.dll
 
 # Ignore appsettings files
