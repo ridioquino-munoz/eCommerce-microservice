@@ -10,3 +10,6 @@ obj/
 # Ignore appsettings files
 appsettings.json
 appsettings.*.json
+
+# ignore docker file configuration
+docker-compose.yml
