@@ -37,9 +37,9 @@ REST API build with Asp.Net Core
 
 3. Setting up databases
 
-   update-database --context identitydbcontext
-   update-database --context productdbcontext
-   update-database --context inventorydbcontext
+   <p>update-database --context identitydbcontext</p>
+   <p>update-database --context productdbcontext</p>
+   <p>update-database --context inventorydbcontext</p>
 
 4. Clean and Build
 
