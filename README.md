@@ -24,3 +24,25 @@ REST API build with Asp.Net Core
     <td>C#</td>
   </tr>
 </table>
+
+<h2>Project Setup</h2>
+
+1. clone the repository 
+
+     git clone https://github.com/ridioquino-munoz/eCommerce-microservice.git
+
+2. setup docker services
+
+    docker compose up -d
+
+3. Setting up databases
+
+   update-database --context identitydbcontext
+   update-database --context productdbcontext
+   update-database --context inventorydbcontext
+
+4. Clean and Build
+
+5. Setup Start up project. In solution > Setup startup project > Common properties > Configure Startup Project > Multiple startup project
+
+Select start for all api projects (API.Identity, API.ProductCatalog, API.Inventory, API.Cart)
